@@ -21,4 +21,6 @@ docker push registry.wake-app.net/wakeapp/tarantool-queue-image
 ``` 
 
 #Pull image
+```bash
 docker pull registry.wake-app.net/wakeapp/tarantool-queue-image:latest
+```
