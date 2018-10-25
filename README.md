@@ -7,20 +7,20 @@ $ docker login registry.wake-app.net
 
 ###Build image
 ```bash
-docker build -t tarantool-queue-image .
+docker build -t tarantool-queue .
 ```
 
 ###Create tag
 ```bash
-docker tag tarantool-queue-image:latest registry.wake-app.net/wakeapp/tarantool-queue-image:latest
+docker tag tarantool-queue:latest registry.wake-app.net/wakeapp/tarantool-queue:latest
 ```
 
 ###Push image
 ```bash
-docker push registry.wake-app.net/wakeapp/tarantool-queue-image
+docker push registry.wake-app.net/wakeapp/tarantool-queue
 ``` 
 
 ###Pull image
 ```bash
-docker pull registry.wake-app.net/wakeapp/tarantool-queue-image:latest
+docker pull registry.wake-app.net/wakeapp/tarantool-queue:latest
 ```
