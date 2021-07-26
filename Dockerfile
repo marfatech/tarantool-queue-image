@@ -1,5 +1,6 @@
 FROM tarantool/tarantool:1.7
-MAINTAINER Wakeapp <wakecent@wakeapp.ru>
+
+MAINTAINER MarfaTech <https://marfa-tech.com>
 
 COPY files/app /usr/share/tarantool
 COPY files/app.lua /opt/tarantool
